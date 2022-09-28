@@ -1,0 +1,83 @@
+#title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center
+}
+
+#submitButton {
+  margin: 5px 0px 17px 3px;
+  background-color: rgb(12, 138, 160);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  transition: opacity 0.15s;
+}
+
+
+#submitButton:hover {
+  opacity: 0.8;
+}
+
+#submitButton:active {
+  opacity: 0.6;
+}
+
+#inputWeight, #inputHeight {
+  margin: 6px 0px 0px 0px; 
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(32, 32, 32);
+  font-size: 16px;
+  padding: 10px 10px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  display: block;
+  align-content: center;
+  align-items: center;
+  text-align: left;
+  border: none;
+  outline: rgb(12, 138, 160) 2px solid;
+
+  transition: outline 0.5s;
+  transition: box-shadow 0.5s;
+
+}
+
+#inputWeight:focus, #inputHeight:focus {
+  box-shadow: rgba(12, 138, 160, 0.3) 5px 5px, 
+              rgba(12, 138, 160, 0.2) 10px 10px, 
+              rgba(12, 138, 160, 0.1) 15px 15px, 
+              rgba(12, 138, 160, 0.05) 20px 20px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  -moz-appearance: textfield;
+}
+
+#weight, #height, #bmiResult {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#buttonDiv {
+  text-align:center
+}
